@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="../Fotos/favicon.ico">
+
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css"
+        integrity="sha512-Oy+sz5W86PK0ZIkawrG0iv7XwWhYecM3exvUtMKNJMekGFJtVAhibhRPTpmyTj8+lJCkmWfnpxKgT2OopquBHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>PetMatch | Inicio</title>
+</head>
+
+<body>
+    <nav class="main-nav">
+        <div class="logo"><a href="index.html">Pet<span>Match</span></a></div>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="companero.html">Busca a tu compañero</a></li>
+            <li><a href="informacion.html">Información</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="log-in-wrapper">
+            <div class="log-in">
+               <!--  <a href="log-in.html"><i class="bi bi-person"></i>&nbsp;&nbsp;Iniciar sesión</a> -->
+            <span id="logged-menu"><i class="bi bi-person"></i>&nbsp;&nbsp;Mi cuenta</span>
+        </div>
+        <div class="logged-menu">
+            <i id="logged-menu-arrow" class="bi bi-caret-up-fill"></i>
+            <ul>
+                <li><a href="nueva_publi.html"><i class="bi bi-file-earmark-plus"></i>&nbsp;&nbsp;Nueva publicación</a>
+                </li>
+                <li><a href="tuspublicaciones.html"><i class="bi bi-file-earmark"></i>&nbsp;&nbsp;Mis publicaciones</a>
+                </li>
+                <li><a href="#"><i class="bi bi-door-closed"></i>&nbsp;&nbsp;Cerrar sesión</a></li>
+            </ul>
+        </div>
+        </div>
+        <div id="small-account-wrapper" class="small-account-wrapper">
+            <ul class="hidden-account">
+                <li><a href="nueva_publi.html"><i class="bi bi-file-earmark-plus"></i>&nbsp;&nbsp;Nueva publicación</a>
+                </li>
+                <li><a href="tuspublicaciones.html"><i class="bi bi-file-earmark"></i>&nbsp;&nbsp;Mis publicaciones</a>
+                </li>
+                <li><a href="#"><i class="bi bi-door-closed"></i>&nbsp;&nbsp;Cerrar sesión</a></li>
+            </ul>
+        </div>
+        <div id="small-menu-wrapper" class="small-menu-wrapper">
+            <ul class="hidden-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="companero.html">Busca a tu compañero</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="small-acc-menu">
+            <a href="log-in.html"><i id="small-account-anchor" class="bi bi-person"></i></a>
+            <!-- <i id="small-account" class="bi bi-person"></i> -->
+            <i id="small-menu" class="bi bi-list"></i>
+        </div>
+    </nav>
+
+    <div class="welcome-screen">
+        <div class="appointment-main">
+            <div class="appointment-one">Convierte tu casa en un hogar</div>
+            <div class="appointment-two"><a href="#index-info">Conócenos&nbsp;&nbsp;<i
+                        class="bi bi-arrow-down-circle"></i></a>
+            </div>
+        </div>
+    </div>
+    <div id="index-info" class="generic-container">
+        <div class="info-title">¿Qué es petmatch?</div>
+        <div class="info-text">PetMatch es una iniciativa desarrollada en 2022 ideada para <b>dar hogar a los animales
+                que lo necesiten.</b> Es una plataforma <b>100% gratuita</b> de la que pueden formar parte todas las
+            personas que quieran, es decir, puede ser utilizada tanto por refugios como por personas individuales. Por
+            ahora PetMatch está <b>sólo disponible en el territorio español</b>, pero buscamos expandirnos y llegar lo
+            más lejos posible para ayudar a todos lo animales que lo necesiten.
+            <br>
+            En PetMatch tienes la <b>opción tanto de acoger como de adoptar</b>, pudiendo escoger la alternativa que más
+            encaje con tu estilo de vida.
+            <br>
+            <br>
+            Y recuerda, <b>no compres, adopta.</b>
+        </div>
+        <div class="squares">
+            <div class="square-one"></div>
+            <div class="square-two">
+                <div class="small-filter"></div>
+            </div>
+        </div>
+    </div>
+    <div class="more-info-index">
+        <div class="more-info-title">
+            <div class="more-info-title-main">¿Quieres obtener más información acerca de adoptar?</div>
+            <div class="more-info-title-scnd">Ten en cuenta todos los factores que conlleva adoptar antes de dar el
+                paso.</div>
+        </div>
+        <a href="informacion.html">
+            <div class="more-info-button">Más información</div>
+        </a>
+    </div>
+    <div class="generic-container extra-info">
+        <div class="info-title">Cómo usar Petmatch</div>
+        <div class="info-text more-info-text">
+            El funcionamiento de PetMatch es fácil e intuitivo, simplemente tienes que <b>registrarte en la plataforma
+                si
+                no lo estás</b>, buscar a tu compañero ideal ayudándote de los filtros que ponemos a tu disposición y
+            cuando
+            encuentres a tu mascota perfecta sencillamente tienes que ponerte en contacto con la asociación o persona
+            que está a cargo del animal y llegar a un acuerdo para la adopción o acogida del animal. Nosotros nos
+            encargamos de conectar a los animales con las personas que buscan adoptar o acoger.
+            <br>
+            Así mimsmo <b>dispones de un apartado de información</b> donde podrás concienciarte de lo que supone hacerse
+            cargo
+            de un animal, ya sea una acogida o una adopción, ya que no es algo fácil y requiere una meditación previa.
+        </div>
+        <div class="index-paw"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 278.843 266.33">
+                <path class="a"
+                    d="M108.716,113.537c-33.725,0-81.54,52.135-81.54,85.045,0,14.822,11.386,23.677,30.467,23.677,20.742,0,34.438-10.651,51.073-10.651,16.779,0,30.514,10.651,51.073,10.651,19.081,0,30.467-8.855,30.467-23.677C190.256,165.672,142.441,113.537,108.716,113.537Zm-62.548-5.355c-4.417-14.716-18.024-24.246-30.391-21.29s-18.809,17.281-14.393,32,18.024,24.246,30.391,21.29S50.585,122.9,46.168,108.181Zm35.98-8.825c13.14-3.457,19.714-21.209,14.686-39.649s-19.757-30.582-32.9-27.125S44.223,53.791,49.251,72.231,69.012,102.818,82.147,99.356Zm119.5-12.46c-12.367-2.956-25.97,6.574-30.391,21.29s2.026,29.04,14.393,32,25.97-6.574,30.391-21.29S214.018,89.852,201.651,86.9Zm-66.366,12.46c13.14,3.457,27.868-8.685,32.9-27.125S166.635,36.043,153.5,32.582s-27.868,8.685-32.9,27.125S122.145,95.9,135.285,99.356Z"
+                    transform="translate(97.438 -28.751) rotate(26)" />
+            </svg></div>
+    </div>
+    </div>
+    <footer>
+        <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100"
+            preserveAspectRatio="none">
+            <path class="footer-wave-path"
+                d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
+            </path>
+        </svg>
+        <div class="footer-content">
+            <ul>
+                <li class="footer-logo-title"><a href="index.html">Pet<span>Match</span></a></li>
+                <li class="social">
+                    <a href="#"><i class="bi bi-twitter"></i></a>
+                    &nbsp;
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                    &nbsp;
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                </li>
+            </ul>
+            <ul>
+                <li class="footer-title">Links</li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="companero.html">Busca a tu compañero</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <ul>
+                <li class="footer-title">Legal</li>
+                <li><a href="privacy.html">Política de privacidad</a></li>
+                <li><a href="terms.html">Terminos de uso</a></li>
+            </ul>
+            <div class="footer-end-info">&copy; 2022 - PetMatch. Todos los derechos reservados.</div>
+        </div>
+    </footer>
+</body>
+<script src="../js/scripts.js" defer></script>
+
+</html>
